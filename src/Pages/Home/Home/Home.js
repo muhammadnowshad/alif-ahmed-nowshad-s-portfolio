@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import myPic from '../../../Images/My pic 2.png'
 import Contact from '../../Contact/Contact';
+import Project from '../../Projects/Project/Project';
 import './Home.css'
 
 const Home = () => {
     return (
         <div>
             <div className='top-banner'>
-                <div className='container d-flex align-items-center justify-content-between'>
+                <div className='container d-md-flex align-items-center justify-content-between'>
                     <div className='text-white text-start mt-5 pt-5'>
                         <p className='fs-3 mb-0 pb-0'>Hi, I'm Alif Ahmed Nowshad</p>
                         <h1 className=''>Front-End Web Developer</h1>
@@ -22,6 +23,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Project></Project>
             <Contact></Contact>
         </div>
     );

@@ -2,6 +2,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Contact from './Pages/Contact/Contact';
 import Home from './Pages/Home/Home/Home';
+import NotFound from './Pages/Notfound/NotFound';
 import Resume from './Pages/Resume/Resume';
 import Footer from './Pages/Shared/Footer/Footer';
 import Navber from './Pages/Shared/Navber/Navber';
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route exact path='*'>
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
