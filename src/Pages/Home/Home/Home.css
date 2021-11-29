@@ -1,0 +1,26 @@
+.top-banner{
+    background-image: url('../../../Images/Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;  
+}
+
+.myPic{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 7px solid rgb(118, 27, 221);
+}
+.myBtn{
+    color: white;
+    background-color: rgb(255, 32, 32);
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 32, 32);
+    text-align: center;
+}
+.myBtn:hover{
+    background-color: white;
+    color: red;
+    font-weight: 500;
+}
