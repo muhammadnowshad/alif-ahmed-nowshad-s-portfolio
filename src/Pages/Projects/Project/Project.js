@@ -4,7 +4,7 @@ import './Project.css'
 
 const Project = (props) => {
 
-    const {img1, title, short_des, id} = props.project || {};
+    const {img1, title, short_des, _id} = props.project || {};
 
     return (
             <div className="col-lg-4 col-md-6 col-12 ">
@@ -17,7 +17,7 @@ const Project = (props) => {
                         <p className="text-start ">{short_des}</p>
                     </div>
                     <div className="card-footer pt-0 mb-2 border-0">
-                        <Link to={`/detailProject/${id}`}>
+                        <Link to={`/detailProject/${_id}`}>
                             <button className="myBtn w-50">Details</button>
                         </Link>
                     </div> 

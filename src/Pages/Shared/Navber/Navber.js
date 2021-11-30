@@ -20,6 +20,12 @@ const Navber = () => {
                                 <Link to='/projects' className="nav-link text-white">Projects</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to='/about' className="nav-link text-white">About</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to='/blogs' className="nav-link text-white">Blogs</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to='/contact' className="nav-link text-white">Contact Me</Link>
                             </li>
                         </ul>
