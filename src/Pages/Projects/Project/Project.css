@@ -1,0 +1,9 @@
+
+.my-card{
+    background-image: linear-gradient(to top, rgba(233, 225, 225, 0.74) , rgba(248, 243, 243, 0.267));
+    box-shadow: 2px 2px 4px 2px rgb(105, 101, 101);
+}
+.my-card:hover{
+    
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}

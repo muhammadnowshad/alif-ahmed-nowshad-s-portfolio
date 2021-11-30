@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import myPic from '../../../Images/My pic 2.png'
 import Contact from '../../Contact/Contact';
-import Project from '../../Projects/Project/Project';
+import Projects from '../../Projects/Projects/Projects';
 import './Home.css'
 
 const Home = () => {
@@ -17,13 +17,21 @@ const Home = () => {
                         <Link to='resume'>
                          <button className='myBtn'>Resume</button>
                         </Link>
+                        <div className='fs-2 mt-2'>
+                            <a href="https://www.linkedin.com/in/alif-ahmed-nowshad/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin-in me-4 icons"></i>
+                            </a>
+                            <a href="https://github.com/muhammadnowshad" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github icons"></i>
+                            </a>
+                        </div>
                     </div>
                     <div className='mt-5 pt-5'>
                         <img src={myPic} className='myPic' alt="" />
                     </div>
                 </div>
             </div>
-            <Project></Project>
+            <Projects></Projects>
             <Contact></Contact>
         </div>
     );
