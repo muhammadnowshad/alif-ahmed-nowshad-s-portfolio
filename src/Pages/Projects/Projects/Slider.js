@@ -12,7 +12,7 @@ const Slider = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setProject(data))
-    }, []);
+    }, [projectId]);
 
     return (
         <div className='my-4 col-12 col-md-8 mx-auto slider'>

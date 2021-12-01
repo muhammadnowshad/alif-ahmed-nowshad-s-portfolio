@@ -17,7 +17,7 @@ const Projects = () => {
                 <h2 className="mt-5">My Projects</h2>
                 <div className="row my-3 g-4">
                 {
-                    projects.map(project => <Project project={project}></Project>)
+                    projects.map(project => <Project key={project.id} project={project}></Project>)
                 }
                 </div>
             </div>

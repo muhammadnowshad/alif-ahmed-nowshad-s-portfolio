@@ -1,19 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { PropagateLoader } from 'react-spinners';
 import './Project.css'
 
 const Project = (props) => {
 
     const {img1, title, short_des, _id} = props.project || {};
-    const [loading, setLoading] = useState(false);
-
-    useEffect(() => {
-        setLoading(true)
-        setTimeout(() => {
-        setLoading(false)
-        },8000)
-    },[]);
 
     return (
                 <div className="col-lg-4 col-md-6 col-12 ">

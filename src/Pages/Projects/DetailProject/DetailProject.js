@@ -12,7 +12,7 @@ const DetailProject = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setProject(data))
-    }, []);
+    }, [projectId]);
 
     
     return (

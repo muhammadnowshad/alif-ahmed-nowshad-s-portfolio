@@ -21,10 +21,10 @@ const Home = () => {
                             </Link>
                             <div className='fs-2 mt-2'>
                                 <a href="https://www.linkedin.com/in/alif-ahmed-nowshad/" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-linkedin-in me-4 icons"></i>
+                                    <i className="fab fa-linkedin-in me-4 icons"></i>
                                 </a>
                                 <a href="https://github.com/muhammadnowshad" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-github icons"></i>
+                                    <i className="fab fa-github icons"></i>
                                 </a>
                             </div>
                         </div>
