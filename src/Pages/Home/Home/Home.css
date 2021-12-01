@@ -33,4 +33,7 @@
         border-radius: 50%;
         border: 5px solid blue;
     }
+    .my-div{
+        margin-bottom: 40px;
+    }
   }

@@ -12,7 +12,7 @@ const Home = () => {
             <div className='top-banner d-flex align-items-center'>
                 <div className='container'>
                     <div className='row g-4 align-items-center'>
-                        <div className='col-12 col-md-6 mt-md-0 pt-md-0 my-5'>
+                        <div className='col-12 col-md-6 mt-0 my-div'>
                             <img src={myPic} className='myPic float-md-start' alt="" />
                         </div>
                         <div className='col-12 col-md-6 text-white text-start my-auto'>
