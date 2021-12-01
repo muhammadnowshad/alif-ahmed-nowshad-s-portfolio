@@ -25,8 +25,8 @@ const DetailProject = () => {
                 <a target='_blank' rel="noreferrer" className=' fs-4 fw-bold' href={project.codeServer}>Server Code</a>
             </div>
             <div className='mx-auto col-12 col-md-8 my-2'>
-                <p className='text-start'>{project.short_des}</p>
-                <p className='text-start'>{project.long_des}</p>
+                <p className='text-start fs-5'>{project.short_des}</p>
+                <p className='text-start fs-5'>{project.long_des}</p>
             </div>
         </div>
     );

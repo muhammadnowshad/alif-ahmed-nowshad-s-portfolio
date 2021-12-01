@@ -1,5 +1,5 @@
 .top-banner{
-    background-image: url('../../../Images/Banner.jpg');
+    background-image: url('../../../Images/Banner2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;  
@@ -9,7 +9,7 @@
     height: 350px;
     width: 350px;
     border-radius: 50%;
-    border: 7px solid rgb(118, 27, 221);
+    border: 7px solid blue;
 }
 .myBtn{
     color: white;

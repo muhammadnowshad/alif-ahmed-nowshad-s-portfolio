@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Swiper from 'swiper';
 import './App.css';
@@ -11,11 +12,31 @@ import Projects from './Pages/Projects/Projects/Projects';
 import Resume from './Pages/Resume/Resume';
 import Footer from './Pages/Shared/Footer/Footer';
 import Navber from './Pages/Shared/Navber/Navber';
+import { PropagateLoader } from 'react-spinners';
 
 function App() {
+  
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    },8000)
+  },[])
+
   return (
     <div className="App">
-      <BrowserRouter>
+      {
+        loading ?
+
+        <div className='loader'>
+          <PropagateLoader loading={loading} animation="border" color={"#263AF6"} />
+        </div>
+
+        :
+
+        <BrowserRouter>
         <Navber></Navber>
         <Switch>
           <Route exact path='/'>
@@ -51,6 +72,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </BrowserRouter>
+      }
     </div>
   );
 }

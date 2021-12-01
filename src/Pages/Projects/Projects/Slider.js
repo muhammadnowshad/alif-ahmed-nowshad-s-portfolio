@@ -8,7 +8,7 @@ const Slider = () => {
     const [project, setProject] = useState([]);
 
     useEffect( () => {
-        const url = `http://localhost:5000/projects/${projectId}`
+        const url = `https://hidden-headland-31246.herokuapp.com/projects/${projectId}`
         fetch(url)
         .then(res => res.json())
         .then(data => setProject(data))
