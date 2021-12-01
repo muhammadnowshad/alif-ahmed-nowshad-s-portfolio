@@ -8,10 +8,13 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className='m-0 p-0'>
+        <div className=''>
             <div className='top-banner d-flex align-items-center'>
                 <div className='container'>
                     <div className='row g-4 align-items-center'>
+                        <div className='col-12 col-md-6 mt-md-0 pt-md-0 my-5'>
+                            <img src={myPic} className='myPic float-md-start' alt="" />
+                        </div>
                         <div className='col-12 col-md-6 text-white text-start my-auto'>
                             <p className='fs-3 mb-0 pb-0'>Hi, I'm Alif Ahmed Nowshad</p>
                             <h1 className=''>Front-End Web Developer</h1>
@@ -27,9 +30,6 @@ const Home = () => {
                                     <i className="fab fa-github icons"></i>
                                 </a>
                             </div>
-                        </div>
-                        <div className='col-12 col-md-6'>
-                            <img src={myPic} className='myPic' alt="" />
                         </div>
                     </div>
                 </div>
