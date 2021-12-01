@@ -5,11 +5,11 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className=''>
+        
             <div className='container my-5'>
                 <h2 className='mb-5'>About me</h2>
-                <div className='row g-5'>
-                    <div className='d-flex flex-column align-items-start col-12 col-md-6'>
+                <div className='row g-4'>
+                    <div className='d-flex flex-column align-items-start align-items-sm-center col-12 col-md-6'>
                         <div className=''>
                             <img src={myPic} className='img-fluid my-img' alt="" />
                         </div>
@@ -46,11 +46,10 @@ const About = () => {
                         <ProgressBar style={{height: '5px'}} now={50} /></p>
                         <p>Express Js
                         <ProgressBar style={{height: '5px'}} now={50} /></p>
-                        
                     </div>
                 </div>
             </div>
-        </div>
+        
     );
 };
 

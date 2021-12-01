@@ -8,10 +8,10 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div className='m-0 p-0'>
             <div className='top-banner d-flex align-items-center'>
                 <div className='container'>
-                    <div className='row g-4'>
+                    <div className='row g-4 align-items-center'>
                         <div className='col-12 col-md-6 text-white text-start my-auto'>
                             <p className='fs-3 mb-0 pb-0'>Hi, I'm Alif Ahmed Nowshad</p>
                             <h1 className=''>Front-End Web Developer</h1>
@@ -28,14 +28,14 @@ const Home = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className='col-12 col-md-6 '>
+                        <div className='col-12 col-md-6'>
                             <img src={myPic} className='myPic' alt="" />
                         </div>
                     </div>
                 </div>
             </div>
             <Projects></Projects>
-            <div className='about py-1'>
+            <div className='about py-1 m-0 px-0'>
                 <About></About>
             </div>
             <Contact></Contact>
