@@ -22,11 +22,12 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    },8000)
+    },4000)
   },[])
 
   return (
     <div className="App">
+    {/* this is loader */}
       {
         loading ?
 
