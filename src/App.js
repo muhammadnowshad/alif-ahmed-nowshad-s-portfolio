@@ -27,7 +27,6 @@ function App() {
 
   return (
     <div className="App">
-    {/* this is loader */}
       {
         loading ?
 
